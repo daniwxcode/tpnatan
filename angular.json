@@ -26,16 +26,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": ["js/jquery.selectbox.min.js",
-              "js/jquery.js",
-              "js/bootstrap.js",
-              "js/jquery-uii.js",
-              "js/contact.js",
-              "js/jquery.colorbox.js",
-              "js/jquery.placeholder.js",
-              "js/jquery.tweet.js",
-              "js/jflickrfeed.min.js",
-              "js/scripts.js"]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -99,16 +90,8 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": ["js/jquery.selectbox.min.js",
-              "js/jquery.js",
-              "js/bootstrap.js",
-              "js/jquery-uii.js",
-              "js/contact.js",
-              "js/jquery.colorbox.js",
-              "js/jquery.placeholder.js",
-              "js/jquery.tweet.js",
-              "js/jflickrfeed.min.js",
-              "js/scripts.js"]
+            "scripts": [
+            ]
           }
         },
         "lint": {

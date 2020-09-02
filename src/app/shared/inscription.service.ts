@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { Inscription } from './inscription';
 import { AngularFireDatabase, AngularFireList, AngularFireObject } from '@angular/fire/database';
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -53,3 +54,4 @@ private errorMgmt(error) {
   console.log(error)
 }
 }
+

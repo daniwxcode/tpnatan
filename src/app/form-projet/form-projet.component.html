@@ -20,15 +20,15 @@
             <div class="span4 ">
                 <div class="column_project">
                     <h4 class="text-center">Données Personnelles</h4>
-                        <input type="text"  class="inputp search-query span12" formControlName="promoteur.nom"  placeholder="Nom">
-                        <input type="text" class="inputp search-query span12" formControlName="promoteur.prenoms" placeholder="prénom(s)">
-                        <input type="text" class="inputp search-query span12" formControlName="promoteur.email" placeholder="Email">
+                        <input type="text"  class="inputp search-query span12" formControlName="nom"  placeholder="Nom">
+                        <input type="text" class="inputp search-query span12" formControlName="prenoms" placeholder="prénom(s)">
+                        <input type="text" class="inputp search-query span12" formControlName="email" placeholder="Email">
                         <input type="password" class="inputp search-query span12" placeholder="Mot de Passe">
                         <input type="password" class="inputp search-query span12" placeholder="Confirmer">
-                        <input type="text" class="inputp search-query span12" formControlName="promoteur.numerowhatsapp" style="padding-left: 30px;" placeholder="Numéro Whatsapp">
-                        <input type="text" class="inputp search-query span12 face"formControlName="promoteur.compteFacebook" style="padding-left: 30px;" placeholder="Compte Facebook">
-                        <input type="text" class="inputp search-query span12 tweet" formControlName="promoteur.compteTwitter"style="padding-left: 30px;" placeholder="Compte Twitter">                   
-                        <input type="text" class="inputp search-query span12 " formControlName="promoteur.professsion"style="padding-left: 30px;" placeholder="Profession">                   
+                        <input type="text" class="inputp search-query span12" formControlName="numerowhatsapp" style="padding-left: 30px;" placeholder="Numéro Whatsapp">
+                        <input type="text" class="inputp search-query span12 face"formControlName="compteFacebook" style="padding-left: 30px;" placeholder="Compte Facebook">
+                        <input type="text" class="inputp search-query span12 tweet" formControlName="compteTwitter"style="padding-left: 30px;" placeholder="Compte Twitter">                   
+                        <input type="text" class="inputp search-query span12 " formControlName="professsion"style="padding-left: 30px;" placeholder="Profession">                   
 
                     </div>
             </div>
@@ -36,13 +36,13 @@
                 <div class="bleft column_project">
                     <h4 class="text-center">Project Description:</h4>
                    
-                        <input type="text" formControlName="projet.intitule" class="inputp search-query span12" placeholder="Intitule">
+                        <input type="text" formControlName="intitule" class="inputp search-query span12" placeholder="Intitule">
                       
                         <div class="upload_img inline">
                             <input type="file" name="upload"/>
                         </div>
-                        <input type="number" class="inputp search-query span12" formControlName="projet.estimation" placeholder="Etimation du coût">
-                        <textarea id="redex2" class="inputp search-query span12" rows="9" formControlName="projet.resume" placeholder="Resumé"></textarea>
+                        <input type="number" class="inputp search-query span12" formControlName="estimation" placeholder="Etimation du coût">
+                        <textarea id="redex2" class="inputp search-query span12" rows="9" formControlName="resume" placeholder="Resumé"></textarea>
                
                 </div>
             </div>
@@ -50,13 +50,13 @@
                 <div class="bleft column_project">
                     <h4 class="text-center">Project Details:</h4>
                     Date début:
-                    <input type="date" class="inputp search-query span12" formControlName="projet.dateDebut" placeholder="Etimation du coût">
+                    <input type="date" class="inputp search-query span12" formControlName="dateDebut" placeholder="Etimation du coût">
                     Date fin:
-                    <input type="date" class="inputp search-query span12" formControlName="projet.dateFin" placeholder="Etimation du coût">
+                    <input type="date" class="inputp search-query span12" formControlName="dateFin" placeholder="Etimation du coût">
 
-                        <input type="text" class="inputp search-query span12" formControlName="projet.dateFin" placeholder="Video URL">
+                        <input type="text" class="inputp search-query span12" formControlName="dateFin" placeholder="Video URL">
                         <div class="upload_pic1 inline">
-                            <input type="file" formControlName="projet.photos" name="upload"/>
+                            <input type="file" formControlName="photos" name="upload"/>
                         </div>
                         
                        
@@ -66,7 +66,11 @@
         </div>
     
     
-        <div class="decoration text-center create_butt"><span class="nobacgr_whit"><button class="btn btn-large search-query" type="button"> <span class="butt_small"><strong>Créer le Projet</strong></span></button></span><a name="id_cont"></a></div>
+        <div class="decoration text-center create_butt">
+            <span class="nobacgr_whit">
+                <button class="btn btn-large search-query" type="submit">
+                     <span class="butt_small"><strong>Créer le Projet</strong>
+                    </span></button></span><a name="id_cont"></a></div>
     
     </div>
 </form>

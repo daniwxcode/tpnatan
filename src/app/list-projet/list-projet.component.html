@@ -17,7 +17,7 @@
                             <div class="folder"><h4 class="text-center title"><a href="#">{{item.projet.intitule}}</a></h4></div>
                             <div class="proj_name">
                                 <div class="clear"></div>
-                                <span class="fleft author">{{item.promoteur.nom}}</span>
+                                <span class="fleft author">{{item.promoteur.nom+" "+item.promoteur.prenoms}}</span>
                                 <table class="icons">
                                     <tbody>
                                     <tr>
@@ -35,7 +35,7 @@
                             <p class="descr">{{item.projet.resume}}</p>
                             <div class="folder price topbordered">
                                 <div class="span4">
-                                    <strong class="green"><span>$</span><span class="project_value" href="#project1">{{item.projet.estimation}} FCFA</span></strong>
+                                    <strong class="green"><span class="project_value" href="#project1">{{item.projet.estimation}}</span></strong>
                                     <p>Estimation</p>
                                 </div>
                                 <div class="span4 bleft">

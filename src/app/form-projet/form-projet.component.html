@@ -21,8 +21,8 @@
             <div class="span3 ">
                 <div class="column_project">
                     <h4 class="text-center">Données Personnelles</h4>
-                    <form class="form-search" >
-                        <input type="text"  class="inputp search-query span12"  placeholder="Nom">
+                    <form class="form-search" [formGroup]="bookForm" (ngSubmit)="submitBook()" #resetBookForm="ngForm" novalidate>
+                        <input type="text"  class="inputp search-query span12" formControlName="book_name"  placeholder="Nom">
                         <input type="text" class="inputp search-query span12"  placeholder="prénom">
                         <input type="text" class="inputp search-query span12" placeholder="Email">
                         <input type="text" class="inputp search-query span12" placeholder="Username">

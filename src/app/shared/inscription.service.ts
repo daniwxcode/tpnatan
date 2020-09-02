@@ -6,26 +6,18 @@ import { AngularFireDatabase, AngularFireList, AngularFireObject } from '@angula
   providedIn: 'root'
 })
 export class InscriptionService {
-  booksRef: AngularFireList<any>;
-  bookRef: AngularFireObject<any>;
+  booksRef: AngularFireList<Inscription>;
+  bookRef: AngularFireObject<Inscription>;
 
   constructor(private db: AngularFireDatabase) {}
 
   /* Create book */
   AddBook(book: Inscription) {
-    this.booksRef.push({
-      book_name: book.intitule,
-      description: book.description,
-      estimation: book.estimation,
-      dateDebut: book.dateDebut,
-      dateFin: book.dateFin
-     
-    })
+    this.booksRef.push(book)
     .catch(error => {
       this.errorMgmt(error);
     })
   }
-
   /* Get book */
   GetBook(id: string) {
     this.bookRef = this.db.object('inscription-list/' + id);
@@ -40,13 +32,7 @@ export class InscriptionService {
 
   /* Update book */
   UpdateBook(id, book: Inscription) {
-    this.bookRef.update({
-      book_name: book.intitule,
-      description: book.description,
-      estimation: book.estimation,
-      dateDebut: book.dateDebut,
-      dateFin: book.dateFin,
-    })
+    this.bookRef.update(book)
     .catch(error => {
       this.errorMgmt(error);
     })

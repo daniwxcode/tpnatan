@@ -1,100 +1,74 @@
 <div class="content">
-  
+    <form class="form-search" [formGroup]="bookForm" (ngSubmit)="submitBook()" #resetBookForm="ngForm" novalidate>
+
 
     <h1 class="decoration text-center proj"><span class="nobacgr">Lancer un Projet</span></h1>
     <div class="create_projects">
         <div class="row-fluid">
-            <div class="span3">
+            <div class="span4">
                 <h4 class="text-center">Etape 1: <span class="green">Enregistrement</span></h4>
             </div>
-            <div class="span3 bleft">
+            <div class="span4 bleft">
                 <h4 class="text-center">Etape 2: <span class="green">Définition</span></h4>
             </div>
-            <div class="span3 bleft">
+            <div class="span4 bleft">
                 <h4 class="text-center">Etape 3: <span class="green">Présentation</span></h4>
             </div>
-            <div class="span3 bleft">
-                <h4 class="text-center">Etape 4: <span class="green">Exécution</span></h4>
-            </div>
+            
         </div>
         <div class="row-fluid border_proj duration">
-            <div class="span3 ">
+            <div class="span4 ">
                 <div class="column_project">
                     <h4 class="text-center">Données Personnelles</h4>
-                    <form class="form-search" [formGroup]="bookForm" (ngSubmit)="submitBook()" #resetBookForm="ngForm" novalidate>
-                        <input type="text"  class="inputp search-query span12" formControlName="book_name"  placeholder="Nom">
-                        <input type="text" class="inputp search-query span12"  placeholder="prénom">
-                        <input type="text" class="inputp search-query span12" placeholder="Email">
-                        <input type="text" class="inputp search-query span12" placeholder="Username">
-                        <input type="text" class="inputp search-query span12" placeholder="Password">
-                        <input type="text" class="inputp search-query span12" placeholder="Repeat Password">
-                        <input type="text" class="inputp search-query span12 face" style="padding-left: 30px;" placeholder="Account Name">
-                        <input type="text" class="inputp search-query span12 tweet" style="padding-left: 30px;" placeholder="Account Name">
-                        <input type="text" class="inputp search-query span12" placeholder="Payment Gateway">
-                    </form>
-                </div>
+                        <input type="text"  class="inputp search-query span12" formControlName="promoteur.nom"  placeholder="Nom">
+                        <input type="text" class="inputp search-query span12" formControlName="promoteur.prenoms" placeholder="prénom(s)">
+                        <input type="text" class="inputp search-query span12" formControlName="promoteur.email" placeholder="Email">
+                        <input type="password" class="inputp search-query span12" placeholder="Mot de Passe">
+                        <input type="password" class="inputp search-query span12" placeholder="Confirmer">
+                        <input type="text" class="inputp search-query span12" formControlName="promoteur.numerowhatsapp" style="padding-left: 30px;" placeholder="Numéro Whatsapp">
+                        <input type="text" class="inputp search-query span12 face"formControlName="promoteur.compteFacebook" style="padding-left: 30px;" placeholder="Compte Facebook">
+                        <input type="text" class="inputp search-query span12 tweet" formControlName="promoteur.compteTwitter"style="padding-left: 30px;" placeholder="Compte Twitter">                   
+                        <input type="text" class="inputp search-query span12 " formControlName="promoteur.professsion"style="padding-left: 30px;" placeholder="Profession">                   
+
+                    </div>
             </div>
-            <div class="span3">
+            <div class="span4">
                 <div class="bleft column_project">
                     <h4 class="text-center">Project Description:</h4>
-                    <form class="form-search">
-                        <input type="text" class="inputp search-query span12" placeholder="Project Name">
+                   
+                        <input type="text" formControlName="projet.intitule" class="inputp search-query span12" placeholder="Intitule">
                       
                         <div class="upload_img inline">
                             <input type="file" name="upload"/>
                         </div>
-                        <textarea id="redex2" class="inputp search-query span12" rows="9" placeholder="Short description"></textarea>
-                        <input type="text" class="inputp search-query span12" placeholder="Payment Gateway">
-                    </form>
+                        <input type="number" class="inputp search-query span12" formControlName="projet.estimation" placeholder="Etimation du coût">
+                        <textarea id="redex2" class="inputp search-query span12" rows="9" formControlName="projet.resume" placeholder="Resumé"></textarea>
+               
                 </div>
             </div>
-            <div class="span3">
+            <div class="span4">
                 <div class="bleft column_project">
                     <h4 class="text-center">Project Details:</h4>
-                    <form class="form-search">
-                        <input type="text" class="inputp search-query span12" placeholder="Video URL">
+                    Date début:
+                    <input type="date" class="inputp search-query span12" formControlName="projet.dateDebut" placeholder="Etimation du coût">
+                    Date fin:
+                    <input type="date" class="inputp search-query span12" formControlName="projet.dateFin" placeholder="Etimation du coût">
+
+                        <input type="text" class="inputp search-query span12" formControlName="projet.dateFin" placeholder="Video URL">
                         <div class="upload_pic1 inline">
-                            <input type="file" name="upload"/>
+                            <input type="file" formControlName="projet.photos" name="upload"/>
                         </div>
-                        <div class="upload_pic2 inline">
-                            <input type="file" name="upload"/>
-                        </div>
-                        <div class="upload_pic3 inline">
-                            <input type="file" name="upload"/>
-                        </div>
-                        <input type="text" class="inputp search-query span12 face" style="padding-left: 30px;" placeholder="Account Name">
-                        <input type="text" class="inputp search-query span12 tweet" style="padding-left: 30px;" placeholder="Account Name"> <textarea id="redex3" class="inputp search-query span12"  rows="5" placeholder="Project description"></textarea>
-                        <div class="upload_html inline">
-                            <input type="file" name="upload"/>
-                        </div>
-                    </form>
+                        
+                       
                 </div>
             </div>
-            <div class="span3">
-                <div class="bleft column_project" >
-                    <h4 class="text-center ">Project Duration:</h4>
-                    <ul>
-                        <li>
-                            <input id="rfirst" type="radio" name="radio" checked hidden />
-                            <label for="rfirst">30 Days ($15)</label>
-                        </li>
-                        <li>
-                            <input id="rsecond" type="radio" name="radio" hidden />
-                            <label for="rsecond">45 Days ($20)</label>
-                        </li>
-                        <li>
-                            <input id="re" type="radio" name="radio" hidden />
-                            <label for="re">60 Days ($25)</label>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+           
         </div>
     
     
-        <div class="decoration text-center create_butt"><span class="nobacgr_whit"><button class="btn btn-large search-query" type="button"> <span class="butt_small"><strong>CREATE</strong></span></button></span><a name="id_cont"></a></div>
+        <div class="decoration text-center create_butt"><span class="nobacgr_whit"><button class="btn btn-large search-query" type="button"> <span class="butt_small"><strong>Créer le Projet</strong></span></button></span><a name="id_cont"></a></div>
     
     </div>
-    
+</form>
     </div>
     

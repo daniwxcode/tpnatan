@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {Projet} from '../../Model/projet';
-import {EtatCivil} from '../../Model/etat-civil';
+import {Inscription} from '../shared/inscription';
+
 
 
 import { InscriptionService } from './../shared/inscription.service';
@@ -21,7 +21,7 @@ export class FormProjetComponent implements OnInit {
 
   ngOnInit() { 
     this.InscriptionApi.GetBookList();
-    this.submitBookForm();
+  //  this.submitBookForm();
   }
 
   constructor(
@@ -31,7 +31,7 @@ export class FormProjetComponent implements OnInit {
 
   
 
-  /* Reactive book form */
+  /* Reactive book form 
   submitBookForm() {
     this.bookForm = this.fb.group({
       intitule : ['', [Validators.required]],
@@ -42,7 +42,7 @@ export class FormProjetComponent implements OnInit {
       
     })
   }
-
+*/
   /* Get errors */
   public handleError = (controlName: string, errorName: string) => {
     return this.bookForm.controls[controlName].hasError(errorName);
@@ -70,6 +70,8 @@ export class FormProjetComponent implements OnInit {
   /* Submit book */
   submitBook() {
     if (this.bookForm.valid){
+      alert('ok');
+      console.log(this.bookForm);
       this.InscriptionApi.AddBook(this.bookForm.value)
       this.resetForm();
     }

@@ -6,7 +6,7 @@ import { Guid } from 'guid-typescript';
 export class Inscription {
   
     constructor(
-       public key: string,
+    public key: string,
     public promoteur: EtatCivil,
     public projet: Projet,
     public participations: Participation[]){}

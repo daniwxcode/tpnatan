@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 /* Firebase */
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
-import { environment } from 'src/environments/environment';
+import { environment } from '../environments/environment';
 /*fin */
 
 import { AppComponent } from './app.component';

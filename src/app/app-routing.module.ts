@@ -16,12 +16,12 @@ const routes: Routes = [
    {path : "inscription", component : InscriptionComponent },
    {path : "connexion", component : ConnexionComponent},
    {path : "projet", component : DetailProjetComponent},
-   {path : "home", component : AcceuilComponent},
+   {path : "", component : AcceuilComponent},
    {path : 'a-propos', component : AproposComponent,},
    {path : "list-projet", component : ListProjetComponent},
    {path : 'contact', component : ContactComponent},
    {path : "add-projet", component : FormProjetComponent},
-   //{path : 'login', component : ConnexionComponent  }
+   {path : '**', component : AcceuilComponent  }
 ];
 
 @NgModule({

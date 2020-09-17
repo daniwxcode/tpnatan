@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { MenuService } from './shared/menu.service'
 import { ConnexionComponent } from './user/connexion/connexion.component'
 
@@ -7,14 +7,24 @@ import { ConnexionComponent } from './user/connexion/connexion.component'
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
   private menuService : MenuService;
   //afficherMenu : boolean = menuService
-  menu: boolean= true;
+  afficherAccueil: boolean= true;
+  afficherMenu: boolean = true;
+
   title = 'Natan';
-  SeConnecter(){
-    this.menu = false;
+  hideAccueil(){
+    this.afficherAccueil = false;
     this.title = 'Bonjour';
+  }
+  hideMenu(){
+    this.afficherMenu = false;
+  }
+
+  ngOnInit(){
+    this.afficherAccueil = true;
+    this.afficherMenu = true;
   }
  
 

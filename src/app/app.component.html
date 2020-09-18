@@ -1,11 +1,13 @@
 <div id="header" class="header" *ngIf="afficherMenu">
     <a name="id_home"></a>
-    <div class="width titul" >
+    <div class="width titul">
         <div class="reg inline">
-            <div class="bleft inline login"><a href="#" (click)="hideMenu()" routerLink= "/connexion" id="login-link" class="login-link">CONNEXION </a></div>
-            <div  class="bleft bright inline login"><a href="#" routerLink="/inscription" id="reg-link" class=" nav-item login-link">INSCRIPTION</a>
+            <div class="bleft inline login"><a href="#" (click)="hideMenu()" routerLink="/connexion" id="login-link"
+                    class="login-link">CONNEXION </a></div>
+            <div class="bleft bright inline login"><a href="#" routerLink="/inscription" id="reg-link"
+                    class=" nav-item login-link">INSCRIPTION</a>
             </div>
-           
+
         </div>
 
         <div class="social inline fright">
@@ -13,14 +15,16 @@
                 <li class="bleft inline">
                     <ul style="margin-left: 10px">
                         <li><a href="https://www.facebook.com/" target="_blank" original-title="twitter"><img
-                                    src="http://new.uouapps.com/funder/img/social/icon_header_face.png" alt=""></a></li>
+                                    src="https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/social/icon_header_face.png"
+                                    alt=""></a></li>
                         <li><a href="https://twitter.com/" title="facebook" target="_blank"><img
-                                    src="http://new.uouapps.com/funder/img/social/icon_header_tw.png" alt=""></a></li>
+                                    src="https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/social/icon_header_tw.png"
+                                    alt=""></a></li>
                         <li><a href="http://www.linkedin.com/" target="_blank" original-title="linkedin"><img
-                                    src="http://new.uouapps.com/funder/img/social/icon_header_in.png" alt=""></a></li>
+                                    src="https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/social/icon_header_in.png"
+                                    alt=""></a></li>
                     </ul>
                 </li>
-
             </ul>
         </div>
     </div>
@@ -33,12 +37,19 @@
 
             <div class="navigation inline">
                 <ul class="nav inline menuleft">
-                    <li class="active"><a class="bleft" href="#" routerLink = "/">ACCEUIL</a></li>
-                    <li><a id="link_about" (click) = "hideAccueil()" class="bleft" href="#" routerLink = "/a-propos">A propos</a></li>
-                    <li><a id="link" class="bleft" routerLink = "/list-projet"href="#" >PROJETS</a></li>
-                    <li><a id="link" class="bleft" routerLink = "/add-projet"href="#" >CRÉER VOTRE PROJET</a></li>
+                    <li class="{{acceuil}}" (click)="active('acceuil')"><a class="bleft" href="#"
+                            routerLink="/">ACCEUIL</a></li>
+                    <li class="{{about}}" (click)="active('about')"><a id="link_about" class="bleft" href="#"
+                            routerLink="/a-propos">A
+                            PROPOS</a></li>
+                    <li class="{{list}}" (click)="active('list')"><a id="link" class="bleft" routerLink="/list-projet"
+                            href="#">PROJETS</a></li>
+                    <li class="{{details}}" (click)="active('details')"><a id="link" class="bleft"
+                            routerLink="/add-projet" href="#">CRÉER VOTRE
+                            PROJET</a></li>
                     <!-- <li><a id="link_reg" class="bleft" href="#">INSCRIPTION</a></li> -->
-                    <li><a id="link_contact" class="bleft" href="#" routerLink = "/contact">CONTACTS</a></li>
+                    <li class="{{contact}}" (click)="active('contact')"><a id="link_contact" class="bleft" href="#"
+                            routerLink="/contact">CONTACTS</a></li>
                     <!-- <li><a id="link_partners" class="bleft last" href="#">PARTENAIRES</a></li> -->
                 </ul>
             </div>
@@ -59,15 +70,3 @@
 <main>
     <router-outlet></router-outlet>
 </main>
-
-    <!-- <app-acceuil *ngIf="afficherAccueil"></app-acceuil> -->
-
-    <!-- <main >
-       
-    </main> -->
-     
-
-
-
-<!-- <a  routerLink="/inscription" class="nav-item" > Inscription</a> -->
-

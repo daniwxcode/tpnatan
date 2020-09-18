@@ -1,65 +1,143 @@
-
 <div class="container-fluid line" *ngIf="menu">
     <div class="top_widgets black">
         <section class="black">
-           
+
             <div class="map-wrapper">
 
-                <div id="map" class="map" style="position: relative; overflow: hidden; -webkit-transform: translateZ(0);height: 465px">
+                <div id="map" class="map"
+                    style="position: relative; overflow: hidden; -webkit-transform: translateZ(0);height: 465px">
                     <div id="home-page-featured">
                         <div id="Textus">
-                        <div class="clear">
-                        <p>{{message}}</p>
-                        </div>
-                        <div class="clear">
-                        <p>{{desc}}</p>
-                        </div>
+                            <div class="clear">
+                                <p>{{message}}</p>
+                            </div>
+                            <div class="clear">
+                                <p>{{desc}}</p>
+                            </div>
                         </div>
                         <ul>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1551791514-88ceaaa47c40?ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1509099381441-ea3c0cf98b94?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1477558716721-e28322f187c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1557234195-bd9f290f0e4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://cdn.pixabay.com/photo/2015/05/26/17/42/pop-corn-785074_1280.jpg" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1560951812-58e6bce53149?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1584441930896-bbc0ac5cc161?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1567539549213-cc1697632146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://cdn.pixabay.com/photo/2017/09/12/20/03/carrot-2743498_1280.jpg" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1522579479806-486feddb6d25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1551428513-6092554d88f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://cdn.pixabay.com/photo/2015/03/19/02/59/bird-680319_1280.jpg" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1586619031147-0f48d66c10f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1551791514-88ceaaa47c40?ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1509099381441-ea3c0cf98b94?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1477558716721-e28322f187c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1557234195-bd9f290f0e4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://cdn.pixabay.com/photo/2015/05/26/17/42/pop-corn-785074_1280.jpg"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1560951812-58e6bce53149?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1584441930896-bbc0ac5cc161?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1567539549213-cc1697632146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://cdn.pixabay.com/photo/2017/09/12/20/03/carrot-2743498_1280.jpg"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1522579479806-486feddb6d25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1551428513-6092554d88f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://cdn.pixabay.com/photo/2015/03/19/02/59/bird-680319_1280.jpg"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1586619031147-0f48d66c10f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
                         </ul>
                         <ul>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1592924802543-809bfeee53fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=720&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1526664781949-af414dc24053?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1522579479806-486feddb6d25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1597362925123-77861d3fbac7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1567539549213-cc1697632146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1518977822534-7049a61ee0c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1550828629-19a4ca5ad259?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1490&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1589606743932-747c74e7330e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://cdn.pixabay.com/photo/2013/09/29/16/26/citron-188199_1280.jpg" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1579169326371-ccb4e63f7889?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://cdn.pixabay.com/photo/2017/09/12/20/03/carrot-2743498_1280.jpg" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1515347272087-685ce5a1fc8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=666&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1560252030-9fc63cb78dac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1592924802543-809bfeee53fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=720&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1526664781949-af414dc24053?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1522579479806-486feddb6d25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1597362925123-77861d3fbac7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1567539549213-cc1697632146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1518977822534-7049a61ee0c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1550828629-19a4ca5ad259?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1490&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1589606743932-747c74e7330e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://cdn.pixabay.com/photo/2013/09/29/16/26/citron-188199_1280.jpg"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1579169326371-ccb4e63f7889?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://cdn.pixabay.com/photo/2017/09/12/20/03/carrot-2743498_1280.jpg"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1515347272087-685ce5a1fc8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=666&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1560252030-9fc63cb78dac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
 
                         </ul>
                         <ul>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1522579479806-486feddb6d25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1584441930896-bbc0ac5cc161?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1567539549213-cc1697632146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1522579479806-486feddb6d25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1551428513-6092554d88f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1515347272087-685ce5a1fc8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=666&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1560252030-9fc63cb78dac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1586619031147-0f48d66c10f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1592924802543-809bfeee53fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=720&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1526664781949-af414dc24053?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1597362925123-77861d3fbac7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://images.unsplash.com/photo-1518977822534-7049a61ee0c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
-                            <li><a href="#"><img width="155" height="155" src="https://cdn.pixabay.com/photo/2015/05/26/17/42/pop-corn-785074_1280.jpg" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1522579479806-486feddb6d25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1584441930896-bbc0ac5cc161?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1567539549213-cc1697632146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1522579479806-486feddb6d25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1551428513-6092554d88f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1515347272087-685ce5a1fc8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=666&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1560252030-9fc63cb78dac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1586619031147-0f48d66c10f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1592924802543-809bfeee53fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=720&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1526664781949-af414dc24053?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1597362925123-77861d3fbac7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://images.unsplash.com/photo-1518977822534-7049a61ee0c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                                        class="attachment-post-thumbnail wp-post-image" alt=""></a></li>
+                            <li><a href="#"><img width="155" height="155"
+                                        src="https://cdn.pixabay.com/photo/2015/05/26/17/42/pop-corn-785074_1280.jpg"
+                                        alt=""></a></li>
 
                         </ul>
                         <!-- / container -->
@@ -72,60 +150,65 @@
 </div>
 
 
-<div id="footer"  *ngIf="menu">
-		<div class="footer">
-			<div class="row-fluid">
-				<div class="span3">
-					<h2>NATAN</h2>
-					<p>La Plateforme pour une agriculture collaborative
-						Créez-vous plus de richesse grâce à Natan. Vous pouvez vite trouver de futur partenaires pour
-						vos projets agricoles et profitez des services et produits agricoles et agroalimentaires</p>
-				</div>
-				<div class="span3 foot">
-					<h4>Recent Tweets</h4>
-					<div class="tmargin20">
-						<img class="fleft tw" src="http://new.uouapps.com/funder/img/social_tweet.png" alt="">
-						<div class="mleft40">
-							<span>Lomé- Agoe</span>
-							<span>Nouveau Projet de Culture de Tomate sur un toit</span>
-							<span>besoin de 50 000 FCFA</span>
-							<br>
-							<a href="#" class="green">voir plus</a>
-						</div>
-						<div class="clear foot"></div>
-						<img class="fleft tw" src="http://new.uouapps.com/funder/img/social_tweet.png" alt="">
-						<div class=" mleft40">
-							<span>Kara Tomde </span>
-							<span>J'ai du fumier je veux participer à un projet de maraîchage </span>
-							<span>Valeur: 30 000 Fcfa </span>
-							<br>
-							<a href="#" class="green">voir plus</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="footer_bot">
-			<div class="footer_bott">
-				<div class="fleft">© Tous droits re;serv&eacute;s. Equipe les Abeilles</div>
-				<div class="fright">
-					<ul id="social_b" class="socialbott inline">
-						<li><a href="https://twitter.com/" target="_blank" original-title="twitter"><img
-                                    src="http://new.uouapps.com/funder/img/social/icon_footer_face.png" alt=""></a></li>
-						<li><a href="https://www.facebook.com/" title="facebook" target="_blank"><img
-                                    src="http://new.uouapps.com/funder/img/social/icon_footer_tw.png" alt=""></a></li>
-						<li><a href="http://www.linkedin.com/" target="_blank" original-title="linkedin"><img
-                                    src="http://new.uouapps.com/funder/img/social/icon_footer_in.png" alt=""></a></li>
-					</ul>
-				</div>
-				<div class="clear"></div>
-			</div>
-		</div>
+<div id="footer" *ngIf="menu">
+    <div class="footer">
+        <div class="row-fluid">
+            <div class="span3">
+                <h2>NATAN</h2>
+                <p>La Plateforme pour une agriculture collaborative
+                    Créez-vous plus de richesse grâce à Natan. Vous pouvez vite trouver de futur partenaires pour
+                    vos projets agricoles et profitez des services et produits agricoles et agroalimentaires</p>
+            </div>
+            <div class="span3 foot">
+                <h4>Recent Tweets</h4>
+                <div class="tmargin20">
+                    <img class="fleft tw"
+                        src="https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/social_tweet.png" alt="">
+                    <div class="mleft40">
+                        <span>Lomé- Agoe</span>
+                        <span>Nouveau Projet de Culture de Tomate sur un toit</span>
+                        <span>besoin de 50 000 FCFA</span>
+                        <br>
+                        <a href="#" class="green">voir plus</a>
+                    </div>
+                    <div class="clear foot"></div>
+                    <img class="fleft tw"
+                        src="https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/social_tweet.png" alt="">
+                    <div class=" mleft40">
+                        <span>Kara Tomde </span>
+                        <span>J'ai du fumier je veux participer à un projet de maraîchage </span>
+                        <span>Valeur: 30 000 Fcfa </span>
+                        <br>
+                        <a href="#" class="green">voir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- <main >
+    <div class="footer_bot">
+        <div class="footer_bott">
+            <div class="fleft">© Tous droits re;serv&eacute;s. Equipe les Abeilles</div>
+            <div class="fright">
+                <ul id="social_b" class="socialbott inline">
+                    <li><a href="https://twitter.com/" target="_blank" original-title="twitter"><img
+                                src="https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/social/icon_footer_face.png"
+                                alt=""></a></li>
+                    <li><a href="https://www.facebook.com/" title="facebook" target="_blank"><img
+                                src="https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/social/icon_footer_tw.png"
+                                alt=""></a></li>
+                    <li><a href="http://www.linkedin.com/" target="_blank" original-title="linkedin"><img
+                                src="https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/social/icon_footer_in.png"
+                                alt=""></a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<!-- <main >
         <router-outlet></router-outlet>
     </main> -->
- <!-- <app-apropos></app-apropos>
+<!-- <app-apropos></app-apropos>
  <app-list-projet></app-list-projet>
  <app-form-projet></app-form-projet>
 <app-contact> </app-contact> -->

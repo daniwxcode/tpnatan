@@ -2,77 +2,73 @@
     <form class="form-search" [formGroup]="bookForm" (ngSubmit)="submitBook()" #resetBookForm="ngForm" novalidate>
 
 
-    <h1 class="decoration text-center proj"><span class="nobacgr">Lancer un Projet</span></h1>
-    <div class="create_projects">
-        <div class="row-fluid">
-            <div class="span4">
-                <h4 class="text-center">Etape 1: <span class="green">Enregistrement</span></h4>
+        <h1 class="decoration text-center proj"><span class="nobacgr">Lancer un Projet</span></h1>
+        <div class="create_projects">
+            <div class="row-fluid">
+                <div class="span4">
+                    <h4 class="text-center">Etape 1: <span class="green">Enregistrement</span></h4>
+                </div>
+                <div class="span4 bleft">
+                    <h4 class="text-center">Etape 2: <span class="green">Définition</span></h4>
+                </div>
+                <div class="span4 bleft">
+                    <h4 class="text-center">Etape 3: <span class="green">Planification</span></h4>
+                </div>
+
             </div>
-            <div class="span4 bleft">
-                <h4 class="text-center">Etape 2: <span class="green">Définition</span></h4>
-            </div>
-            <div class="span4 bleft">
-                <h4 class="text-center">Etape 3: <span class="green">Planification</span></h4>
-            </div>
-            
-        </div>
-        <div class="row-fluid border_proj duration">
-            <div class="span4 ">
-                <div class="column_project">
-                    <h4 class="text-center">Données Personnelles</h4>
-                        <input type="text"  class="inputp search-query span12" formControlName="nom"  placeholder="Nom">
-                        <input type="text" class="inputp search-query span12" formControlName="prenoms" placeholder="prénom(s)">
-                        <input type="text" class="inputp search-query span12" formControlName="email" placeholder="Email">
-                        <input type="password" class="inputp search-query span12" placeholder="Mot de Passe">
-                        <input type="password" class="inputp search-query span12" placeholder="Confirmer">
-                        <input type="text" class="inputp search-query span12" formControlName="numerowhatsapp" style="padding-left: 30px;" placeholder="Numéro Whatsapp">
-                        <input type="text" class="inputp search-query span12 face"formControlName="compteFacebook" style="padding-left: 30px;" placeholder="Compte Facebook">
-                        <input type="text" class="inputp search-query span12 tweet" formControlName="compteTwitter"style="padding-left: 30px;" placeholder="Compte Twitter">                   
-                        <input type="text" class="inputp search-query span12 " formControlName="professsion"style="padding-left: 30px;" placeholder="Profession">                   
+            <div class="row-fluid border_proj duration">
+                <div class="span4 ">
+                    <div class="column_project">
+                        <h4 class="text-center">Données Personnelles</h4>
+                        <input type="text" class="inputp search-query span12" formControlName="nom" placeholder="Nom">
+                        <input type="text" class="inputp search-query span12" formControlName="prenoms"
+                            placeholder="prénom(s)">
+                        <input type="text" class="inputp search-query span12" formControlName="email"
+                            placeholder="Email">
+                        <input type="text" class="inputp search-query span12" formControlName="numerowhatsapp"
+                            style="padding-left: 30px;" placeholder="Numéro Whatsapp">
+                        <input type="text" class="inputp search-query span12 face" formControlName="compteFacebook"
+                            style="padding-left: 30px;" placeholder="Compte Facebook">
+                        <input type="text" class="inputp search-query span12 tweet" formControlName="compteTwitter"
+                            style="padding-left: 30px;" placeholder="Compte Twitter">
+                        <input type="text" class="inputp search-query span12 " formControlName="professsion"
+                            style="padding-left: 30px;" placeholder="Profession">
 
                     </div>
-            </div>
-            <div class="span4">
-                <div class="bleft column_project">
-                    <h4 class="text-center">Description du Projet:</h4>
-                   
-                        <input type="text" formControlName="intitule" class="inputp search-query span12" placeholder="Intitule">
-                      
-                        <div class="upload_img inline">
-                            <input type="file" name="upload"/>
-                        </div>
-                        <input type="number" class="inputp search-query span12" formControlName="estimation" placeholder="Etimation du coût">
-                        <textarea id="redex2" class="inputp search-query span12" rows="9" formControlName="resume" placeholder="Resumé"></textarea>
-               
                 </div>
-            </div>
-            <div class="span4">
-                <div class="bleft column_project">
-                    <h4 class="text-center">Autres details:</h4>
-                    Date début:
-                    <input type="date" class="inputp search-query span12" formControlName="dateDebut" placeholder="Etimation du coût">
-                    Date fin:
-                    <input type="date" class="inputp search-query span12" formControlName="dateFin" placeholder="Etimation du coût">
+                <div class="span4">
+                    <div class="bleft column_project">
+                        <h4 class="text-center">Description du Projet:</h4>
 
-                        <input type="text" class="inputp search-query span12" formControlName="dateFin" placeholder="Video URL">
-                        <div class="upload_pic1 inline">
-                            <input type="file" formControlName="photos" name="upload"/>
-                        </div>
-                        
-                       
+                        <input type="text" formControlName="intitule" class="inputp search-query span12"
+                            placeholder="Intitule">
+                        <input type="text" formControlName="photos" class="inputp search-query span12"
+                            placeholder="Url photo">
+                        <input type="number" class="inputp search-query span12" formControlName="estimation"
+                            placeholder="Etimation du coût">
+                        <textarea class="inputp search-query span12" rows="9" formControlName="resume"
+                            placeholder="Resumé"></textarea>
+
+                    </div>
                 </div>
+                <div class="span4">
+                    <div class="bleft column_project">
+                        <h4 class="text-center">Autres details:</h4>
+                        <textarea class="inputp search-query span12" rows="15" formControlName="description"
+                            placeholder="description"></textarea>
+
+                    </div>
+                </div>
+
             </div>
-           
+
+
+            <div class="decoration text-center create_butt">
+                <span class="nobacgr_whit">
+                    <button class="btn btn-large search-query" type="submit">
+                        <span class="butt_small"><strong>Créer le Projet</strong>
+                        </span></button></span><a name="id_cont"></a></div>
+
         </div>
-    
-    
-        <div class="decoration text-center create_butt">
-            <span class="nobacgr_whit">
-                <button class="btn btn-large search-query" type="submit">
-                     <span class="butt_small"><strong>Créer le Projet</strong>
-                    </span></button></span><a name="id_cont"></a></div>
-    
-    </div>
-</form>
-    </div>
-    
+    </form>
+</div>

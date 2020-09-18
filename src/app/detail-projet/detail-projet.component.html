@@ -32,7 +32,7 @@
                                 <div class="title_description_content">{{inscription.projet.intitule}}</div>
                                 <div class="text_description_content"> {{inscription.projet.description}} </div>
                                 <div class="text_description_content"></div>
-                                <div class="text_description_content">besoin</div>
+
                             </div>
                         </div>
 
@@ -47,17 +47,22 @@
                     <div id="face_social_text">
                         <div class="left_face_social_text span4">
                             <div class="face_big span9">
-                                <div class="pix_author"></div>
+                                <div class="pix_author">
+                                    <img
+                                        src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png">
+                                </div>
                             </div>
-                            <div class="social_link_author">
-                                <div class="social_bord"><a href="">
+                            <div class="social_link_author" *ngIf="inscription.promoteur.compteFacebook">
+                                <div class="social_bord"><a href="{{inscription.promoteur.compteFacebook}}"
+                                        target=”_blank”>
                                         <img class="social_decc"
-                                            src="https://new.uouapps.com/funder/img/description/facebook_author_icon.png"
+                                            src="https://cdn.pixabay.com/photo/2017/06/22/06/22/facebook-2429746_1280.png"
                                             alt="">
                                     </a></div>
-                                <div class="social_bord"><a href="">
+                                <div class="social_bord"><a href="{{inscription.promoteur.compteTwitter}}"
+                                        target=”_blank”>
                                         <img class="social_decc"
-                                            src="http://new.uouapps.com/funder/img/description/twitter_author_icon.png"
+                                            src="https://cdn.pixabay.com/photo/2015/03/10/17/30/twitter-667462_1280.png"
                                             alt="">
                                     </a></div>
                                 <div class="social_bord_last"><a href="">
@@ -70,7 +75,7 @@
                         <div class="right_face_social_text span8">
                             <div class="name_surname">{{inscription.promoteur.nom+" "+inscription.promoteur.prenoms}}
                             </div>
-                            <div class="text_author_right">---</div>
+                            <div class="text_author_right">{{inscription.promoteur.email}}</div>
                         </div>
                     </div>
                 </div>
@@ -81,15 +86,15 @@
                     <div class="reply_user main_reply">
                         <div class="row-fluid">
                             <div class="span2">
-                                <div class="image_face"></div>
+                                <div class="image_face">
+                                    <img
+                                        src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png">
+                                </div>
                             </div>
                             <div class="span10">
-                                <div class="name_and_date"><span class="user_name">User</span> - April 10, 2013 at 7:34
+                                <div class="name_and_date"><span class="user_name">User</span> - April 10, 2020 at 7:34
                                     pm - <span class="reply_t">Répondre</span></div>
-                                <div class="text_reply">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                                    nec massa ut justo accumsan malesuada ut pharetra sapien.Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing elit. Etiam nec massa ut justo accumsan malesuada ut pharetra
-                                    sapien.</div>
+                                <div class="text_reply">gestion des messages à implenter.</div>
 
                             </div>
                         </div>
@@ -98,15 +103,15 @@
                     <div class="reply_user subreply">
                         <div class="row-fluid">
                             <div class="span2">
-                                <div class="image_face"></div>
+                                <div class="image_face">
+                                    <img
+                                        src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png">
+                                </div>
                             </div>
                             <div class="span10">
-                                <div class="name_and_date"><span class="user_name">Admin</span> - April 10, 2013 at 7:34
-                                    pm - <span class="reply_t">Reply</span></div>
-                                <div class="text_reply">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                                    nec massa ut justo accumsan malesuada ut pharetra sapien.Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing elit. Etiam nec massa ut justo accumsan malesuada ut pharetra
-                                    sapien.</div>
+                                <div class="name_and_date"><span class="user_name">Admin</span> - April 10, 2020 at 7:34
+                                    pm - <span class="reply_t">Répondre</span></div>
+                                <div class="text_reply">A faire.</div>
 
                             </div>
                         </div>
@@ -141,7 +146,7 @@
                             </div>
                             <div class="text_backers_days_blocks span10">
                                 <div class="top_text_backers_days_blocks">{{inscription.participants.length+1}}</div>
-                                <div class="bottom_text_backers_days_blocks">Participant</div>
+                                <div class="bottom_text_backers_days_blocks">Participants</div>
                             </div>
                         </div>
                     </div>
@@ -151,7 +156,7 @@
                                 <div class="image_second"></div>
                             </div>
                             <div class="text_backers_days_blocks span10">
-                                <div class="top_text_backers_days_blocks">{{inscription.projet.estimation}}</div>
+                                <div class="top_text_backers_days_blocks">{{inscription.projet.estimation}}FCFA</div>
                                 <div class="bottom_text_backers_days_blocks"></div>
                             </div>
                         </div>
@@ -173,49 +178,8 @@
                         <small>Rejoindre ce projet</small>
                     </button>
                 </div>
-                <div id="pledges_block">
-                    <h3 class="decoration text-center"><span class="nobacgr_desc">Actualités sur le projet</span></h3>
-                    <div class="pledges_block_info">
-                        <div class="pledges_block_info_link"><a id="link_pledges_block_info_link_1">Pledge $5 or
-                                more</a></div>
-                        <div id="pledges_block_info_1">
-                            <div class="pledges_block_info_backers">10 Financements</div>
-                            <div class="pledges_block_info_text">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                elit.</div>
-                            <div class="pledges_block_info_estimate_delivery">Estimate delivery: Jan 2013</div>
-                        </div>
-                    </div>
-                </div>
-                <div id="payment_getaway">
-                    <!--<h3 class="text-center payment_getaway_name"><span class="title_h3 left_t"></span>Payment Getaway<span class="title_h3 right_t"></span></h3>-->
-                    <h3 class="decoration text-center"><span class="nobacgr_desc">Payment Getaway</span></h3>
-                    <div class="payment_getaway_block">
-                        <div class="payment_cost">$15</div>
-                        <div class="your_card">
-                            <h3>Choose Your Card:</h3>
 
-                            <ul class="choose">
-                                <li>
-                                    <input id="rfirst" type="radio" name="radio" checked hidden />
-                                    <label for="rfirst">Visa</label>
-                                </li>
-                                <li>
-                                    <input id="rsecond" type="radio" name="radio" hidden />
-                                    <label for="rsecond">MasterCard</label>
-                                </li>
-                                <li>
-                                    <input id="re" type="radio" name="radio" hidden />
-                                    <label for="re">American Express</label>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="payment_getaway_button">
-                            <button class="btn btn-large make_payment" type="button">
-                                <small>Make Payment</small>
-                            </button>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>

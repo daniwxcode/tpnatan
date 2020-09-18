@@ -15,6 +15,7 @@ export class ListProjetComponent implements OnInit {
     this.BookData = [];
     this.bookApi.GetBookList()
       .snapshotChanges().subscribe(books => {
+        this.BookData = [];
         books.forEach(item => {
           let a = item.payload.toJSON();
           a['key'] = item.key;

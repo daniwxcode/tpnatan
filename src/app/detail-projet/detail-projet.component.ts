@@ -19,6 +19,7 @@ export class DetailProjetComponent implements OnInit, OnDestroy {
   constructor(private route: ActivatedRoute, private bookApi: InscriptionService) {
     this.bookApi.GetBookList()
       .snapshotChanges().subscribe(books => {
+        this.BookData = [];
         books.forEach(item => {
           let a = item.payload.toJSON();
           a['key'] = item.key;

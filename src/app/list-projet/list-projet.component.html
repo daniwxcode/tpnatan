@@ -14,6 +14,7 @@
         <div *ngIf="BookData.length > 0" class="portfolio-container">
 
           <div class="portfolio-listing creative development block" style="display: block;">
+
             <div *ngFor=" let item of BookData; trackBy: trackByFn;" class="span4 bordered">
               <div class="folder">
                 <h4 class="text-center title"><a href="#">{{item.projet.intitule}}</a></h4>
@@ -24,17 +25,20 @@
                 <table class="icons">
                   <tbody>
                     <tr>
-                      <td class="icos_proj_sm bleft"><a class="group1" [href]="item.projet.photo" title=""><img
+                      <td class="icos_proj_sm bleft"><a class="group1" [href]=""
+                          [routerLink]="['/product-details', item.key]" title=""><img
                             src="http://new.uouapps.com/funder/img/icon_search.png" alt=""></a></td>
-                      <td class="icos_proj_sm bleft"><a href="projects.html#proj1"><img src="img/icon_lock.png"
-                            alt=""></a></td>
+                      <td class="icos_proj_sm bleft"><a href="" [routerLink]="['/product-details', item.key]"><img
+                            src="http://new.uouapps.com/funder/img/icon_lock.png" alt=""></a></td>
                     </tr>
                   </tbody>
                 </table>
                 <div class="clear"></div>
               </div>
-              <div class="folder border"><a href="projects.html#proj1">
-                  <div class="author_proj proj_1"></div>
+              <div class="folder border"><a href="" [routerLink]="['/product-details', item.key]">
+                  <div class="author_proj proj_1">
+                    <img src="{{item.projet.photos}}">
+                  </div>
                 </a></div>
               <div class="folder lorem lines">
                 <div id="project1" value="456" class="slider"></div>
@@ -42,8 +46,8 @@
               <p class="descr">{{item.projet.resume}}</p>
               <div class="folder price topbordered">
                 <div class="span4">
-                  <strong class="green"><span class="project_value"
-                      href="#project1">{{item.projet.estimation}}</span></strong>
+                  <strong class="green"><span class="project_value" href=""
+                      [routerLink]="['/product-details', item.key]">{{item.projet.estimation}}</span></strong>
                   <p>Estimation</p>
                 </div>
                 <div class="span4 bleft">

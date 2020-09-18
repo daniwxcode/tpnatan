@@ -10,20 +10,19 @@ import { Inscription } from '../shared/inscription';
 })
 export class ListProjetComponent implements OnInit {
   BookData: any = [];
-  constructor(private bookApi: InscriptionService){
+  constructor(private bookApi: InscriptionService) {
     this.bookApi.GetBookList()
-    .snapshotChanges().subscribe(books => {
+      .snapshotChanges().subscribe(books => {
         books.forEach(item => {
           let a = item.payload.toJSON();
-          a['$key'] = item.key;
           this.BookData.push(a as Inscription);
         });
-       
-    })
+
+      })
   }
   ngOnInit(): void {
   }
-  trackByFn(index, item:Inscription) {
+  trackByFn(index, item: Inscription) {
     return item.key;
   }
 

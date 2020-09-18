@@ -17,13 +17,13 @@ export interface Language {
   styleUrls: ['./form-projet.component.css']
 })
 export class FormProjetComponent implements OnInit {
- 
+
   ngOnInit() {
     this.InscriptionApi.GetBookList()
-      this.submitBookForm();
+    this.submitBookForm();
   }
   inscriptions;
-  bookForm : FormGroup;
+  bookForm: FormGroup;
   constructor(
     public fb: FormBuilder,
     private InscriptionApi: InscriptionService
@@ -46,32 +46,32 @@ export class FormProjetComponent implements OnInit {
       "photos": '',
       "video": '',
       "autresFichiers": ""
-      
+
     })
   }
 
- // submitBookForm() {
- //   alert('toto');
- //   this.bookForm = this.fb.group({
- //     "nom": ['', [Validators.required]],
- //     "prenoms": ['', [Validators.required]],
- //     "email": ['', [Validators.required]],
- //     "numerowhatsapp": ['', [Validators.required]],
- //     "compteFacebook": ['', [Validators.required]],
- //     "compteTwitter": ['', [Validators.required]],
- //     "professsion": ['', [Validators.required]],
- //     "intitule": ['', [Validators.required]],
- //     "resume": ['', [Validators.required]],
- //     "description": ['', [Validators.required]],
- //     "estimation": ['', [Validators.required]],
- //     "dateDebut": ['', [Validators.required]],
- //     "dateFin": ['', [Validators.required]],
- //     "photos": ['', [Validators.required]],
- //     "video": ['', [Validators.required]],
- //     "autresFichiers": ""
- //     
- //   })
- // }
+  // submitBookForm() {
+  //   alert('toto');
+  //   this.bookForm = this.fb.group({
+  //     "nom": ['', [Validators.required]],
+  //     "prenoms": ['', [Validators.required]],
+  //     "email": ['', [Validators.required]],
+  //     "numerowhatsapp": ['', [Validators.required]],
+  //     "compteFacebook": ['', [Validators.required]],
+  //     "compteTwitter": ['', [Validators.required]],
+  //     "professsion": ['', [Validators.required]],
+  //     "intitule": ['', [Validators.required]],
+  //     "resume": ['', [Validators.required]],
+  //     "description": ['', [Validators.required]],
+  //     "estimation": ['', [Validators.required]],
+  //     "dateDebut": ['', [Validators.required]],
+  //     "dateFin": ['', [Validators.required]],
+  //     "photos": ['', [Validators.required]],
+  //     "video": ['', [Validators.required]],
+  //     "autresFichiers": ""
+  //     
+  //   })
+  // }
 
   /* Get errors */
   public handleError = (controlName: string, errorName: string) => {
@@ -99,44 +99,50 @@ export class FormProjetComponent implements OnInit {
 
   /* Submit book */
   submitBook() {
-   
+
     const data = this.bookForm.value;
     //if (this.bookForm.valid) {
-      const etatcivil :EtatCivil ={
-        "key":"1",//JSON.stringify(Guid.create().toString()).replace( /\W/g , '') ,
-        "nom": data.nom,
-        "prenoms": data.prenoms,
-        "email":data.email,
-        "numerowhatsapp":data.numerowhatsapp,
-        "professsion": data.professsion,
-        "compteFacebook": data.compteFacebook,
-        "compteTwitter": data.compteTwitter
-      }
-      alert(etatcivil.key);
-      const projet: Projet ={
-      "key":"1",//JSON.stringify(Guid.create().toString()).replace( /\W/g , '') ,
+    const etatcivil: EtatCivil = {
+      "key": "1",//JSON.stringify(Guid.create().toString()).replace( /\W/g , '') ,
+      "nom": data.nom,
+      "prenoms": data.prenoms,
+      "email": data.email,
+      "numerowhatsapp": data.numerowhatsapp,
+      "professsion": data.professsion,
+      "compteFacebook": data.compteFacebook,
+      "compteTwitter": data.compteTwitter
+    }
+    alert(etatcivil.key);
+    const projet: Projet = {
+      "key": "1",//JSON.stringify(Guid.create().toString()).replace( /\W/g , '') ,
       "estimation": data.estimation,
       "intitule": data.intitule,
       "description": data.description,
       "resume": data.resume,
       "video": data.video,
       "photos": data.photos
-      }
-      const participation : Participation ={
-        "key":"1",//JSON.stringify(Guid.create().toString()).replace( /\W/g , '') ,
-        "participant":etatcivil,
-        "valeur":data.estimation
-      }
-      console.log(this.bookForm);
-      const newinscription = new Inscription("1",
-      etatcivil,
-      projet,[participation]);
-      console.log(newinscription);
-     
-      this.InscriptionApi.AddBook(newinscription);
+    }
+    const participation: Participation = {
+      "key": "1",//JSON.stringify(Guid.create().toString()).replace( /\W/g , '') ,
+      "participant": etatcivil,
+      "valeur": data.estimation
+    }
+    console.log(this.bookForm);
 
-      this.resetForm();
-   // }
+
+
+
+
+
+    const newinscription = new Inscription("1",
+      etatcivil,
+      projet, [participation]);
+    console.log(newinscription);
+
+    this.InscriptionApi.AddBook(newinscription);
+
+    this.resetForm();
+    // }
   }
 
 }

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+//import { Observable } from 'rxjs';
+//import { AuthService } from './../shared/auth.service';
 
 @Component({
   selector: 'app-acceuil',
@@ -6,12 +8,27 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./acceuil.component.css']
 })
 export class AcceuilComponent implements OnInit {
-  message='Bienvenue sur Natan';
+  message='Bienvenue sur Naatan';
   desc ='Votre plateforme pour une agriculture collaborative'
- 
+
+  
+  public menu : boolean;
+  title = 'Natan';
+  SeConnecter(){
+    this.menu = false;
+    this.title = 'Bonjour';
+  }
+  //isLoggedIn$: Observable<boolean>;     
+  ngOnInit() {
+    this.menu = true;
+   // this.isLoggedIn$ = this.authService.isLoggedIn; // {2}
+  }             // {1}
+
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  
 
+  // onLogout(){
+  //   this.authService.logout();                      // {3}
+  // }
 }

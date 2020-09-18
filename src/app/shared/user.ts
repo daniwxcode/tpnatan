@@ -1,8 +1,8 @@
-import {Component} from '@angular/core'
-export class Utilisateur{
+//mport {Component} from '@angular/core'
+export class User{
     private id : number;
-    private login : string;
-    private password : string;
+    public login : string;
+    public password : string;
     public getId() : number{
         return this.id;
     }

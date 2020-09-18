@@ -4,7 +4,7 @@
 
   <section class="section content" id="portfolio-list">
 
-    <div class="wrapper row-fluid projects font_p" id="contentWrapper">
+    <div class="wrapper row-fluid projects font_p">
       <div class="zone-content clearfix">
         <!-- No data message -->
         <p *ngIf="BookData.length <= 0" class="about_cont"><strong>Il n'y a pas encore de projets. N'hésitez pas à vous
@@ -16,6 +16,7 @@
           <div class="portfolio-listing creative development block" style="display: block;">
 
             <div *ngFor=" let item of BookData;" class="span4 bordered">
+
               <div class="folder">
                 <h4 class="text-center title"><a href="#">{{item.projet.intitule}}</a></h4>
               </div>
@@ -41,7 +42,7 @@
                   </div>
                 </a></div>
               <div class="folder lorem lines">
-                <div id="project1" value="456" class="slider"></div>
+                <div value="456" class="slider"></div>
               </div>
               <p class="descr">{{item.projet.resume}}</p>
               <div class="folder price topbordered">
@@ -64,8 +65,6 @@
 
 
         </div>
-
-        {{BookData}}
 
       </div>
     </div>

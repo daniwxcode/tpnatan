@@ -11,6 +11,7 @@ import { Inscription } from '../shared/inscription';
 export class ListProjetComponent implements OnInit {
   BookData: any = [];
   constructor(private bookApi: InscriptionService) {
+    this.BookData = [];
     this.bookApi.GetBookList()
       .snapshotChanges().subscribe(books => {
         books.forEach(item => {

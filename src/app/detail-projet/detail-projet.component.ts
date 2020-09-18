@@ -21,6 +21,7 @@ export class DetailProjetComponent implements OnInit, OnDestroy {
       .snapshotChanges().subscribe(books => {
         books.forEach(item => {
           let a = item.payload.toJSON();
+          a['key'] = item.key;
           if (a['key'] == this.key) {
             this.inscription = a;
 

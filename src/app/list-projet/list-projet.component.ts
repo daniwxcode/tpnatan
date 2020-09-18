@@ -11,10 +11,12 @@ import { Inscription } from '../shared/inscription';
 export class ListProjetComponent implements OnInit {
   BookData: any = [];
   constructor(private bookApi: InscriptionService) {
+    this.BookData = [];
     this.bookApi.GetBookList()
       .snapshotChanges().subscribe(books => {
         books.forEach(item => {
           let a = item.payload.toJSON();
+          a['key'] = item.key;
           this.BookData.push(a as Inscription);
         });
 

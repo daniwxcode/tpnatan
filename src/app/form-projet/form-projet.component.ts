@@ -112,7 +112,7 @@ export class FormProjetComponent implements OnInit {
       "compteFacebook": data.compteFacebook,
       "compteTwitter": data.compteTwitter
     }
-    alert(etatcivil.key);
+
     const projet: Projet = {
       "key": "1",//JSON.stringify(Guid.create().toString()).replace( /\W/g , '') ,
       "estimation": data.estimation,
@@ -123,7 +123,7 @@ export class FormProjetComponent implements OnInit {
       "photos": data.photos
     }
     const participation: Participation = {
-      "key": "1",
+      "key": "",
       "participant": etatcivil,
       "valeur": data.estimation
     }

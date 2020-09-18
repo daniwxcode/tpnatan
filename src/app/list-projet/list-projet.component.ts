@@ -15,6 +15,7 @@ export class ListProjetComponent implements OnInit {
       .snapshotChanges().subscribe(books => {
         books.forEach(item => {
           let a = item.payload.toJSON();
+          a['key'] = item.key;
           this.BookData.push(a as Inscription);
         });
 

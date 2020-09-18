@@ -123,13 +123,13 @@ export class FormProjetComponent implements OnInit {
       "photos": data.photos
     }
     const participation: Participation = {
-      "key": "",
+      "key": "1",
       "participant": etatcivil,
       "valeur": data.estimation
     }
     console.log(this.bookForm);
 
-    const newinscription = new Inscription("1",
+    const newinscription = new Inscription(JSON.stringify(Guid.create().toString()).replace(/\W/g, ''),
       etatcivil,
       projet, [participation]);
 

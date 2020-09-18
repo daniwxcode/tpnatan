@@ -383,12 +383,12 @@
   }
   
   #header .navigate {
-      background: url("http://new.uouapps.com/funder/img/background.png") repeat;
+      background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/background.png") repeat;
       padding-top: 30px;
       border-top: 1px solid #e6e6e6;
   }
   #navtop {
-      background: url("http://new.uouapps.com/funder/img/bckgr_top.png") repeat;
+      background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/bckgr_top.png") repeat;
       border-top: 1px solid #e6e6e6;
       opacity: 0.92;
   }
@@ -440,11 +440,11 @@
   }
   
       .face {
-          background: url('http://new.uouapps.com/funder/img/social/icon_header_face.png') no-repeat;
+          background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/social/icon_header_face.png') no-repeat;
           background-position: 2px;
       }
       .tweet {
-          background: url('http://new.uouapps.com/funder/img/social/icon_header_tw.png') no-repeat;
+          background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/social/icon_header_tw.png') no-repeat;
           background-position: 2px;
       }
        /* /SOCIAL */
@@ -489,10 +489,10 @@
       right: 25%;
   }
   .expanded{
-      background: url('http://new.uouapps.com/funder/img/latest_projjj.png') !important;
+      background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/latest_projjj.png') !important;
   }
   .latest {
-      background: url('http://new.uouapps.com/funder/img/latest_proj_bottt.png');
+      background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/latest_proj_bottt.png');
   
   }
   .adv_search {
@@ -527,7 +527,7 @@
   }
    .login a.login-link {
       display: block;
-      background: url(http://new.uouapps.com/funder/img/arrow.png) no-repeat 20px center;
+      background: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/arrow.png) no-repeat 20px center;
       padding: 12px 15px 12px 30px;
       /*border-left: 1px solid #e6e6e6;*/
   }
@@ -613,7 +613,7 @@
       line-height: 24px;
   }
   .contentt {
-      background: url("http://new.uouapps.com/funder/img/background.png") repeat !important;
+      background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/background.png") repeat !important;
       padding-bottom: 40px;
   }
   .contentt h1{
@@ -720,7 +720,7 @@
       font-size: 1em;
       text-transform: uppercase;
       color: #ffffff;
-      background: url("http://new.uouapps.com/funder/img/search-button-background.png") no-repeat left #a6c12a;
+      background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/search-button-background.png") no-repeat left #a6c12a;
       cursor: pointer;
       padding-left: 43px;
       border: none;
@@ -758,7 +758,7 @@
       vertical-align: top;
   }
   #footer {
-      background: url("http://new.uouapps.com/funder/img/footer_bckgr.png") repeat;
+      background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/footer_bckgr.png") repeat;
       font-family: 'Roboto Slab', serif;
   }
   .footer_bot {
@@ -806,22 +806,22 @@
        /*width: 290px;*/
    }
    .proj_1 {
-       background: url("http://new.uouapps.com/funder/img/proj1.jpg") no-repeat;
+       background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/proj1.jpg") no-repeat;
    }
    .proj_2 {
-       background: url("http://new.uouapps.com/funder/img/proj2.jpg") no-repeat;
+       background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/proj2.jpg") no-repeat;
    }
    .proj_3 {
-       background: url("http://new.uouapps.com/funder/img/proj3.jpg") no-repeat;
+       background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/proj3.jpg") no-repeat;
    }
    .proj_4 {
-       background: url("http://new.uouapps.com/funder/img/proj4.jpg") no-repeat;
+       background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/proj4.jpg") no-repeat;
    }
    .proj_5 {
-       background: url("http://new.uouapps.com/funder/img/proj5.jpg") no-repeat;
+       background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/proj5.jpg") no-repeat;
    }
    .proj_6 {
-       background: url("http://new.uouapps.com/funder/img/proj6.jpg") no-repeat;
+       background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/proj6.jpg") no-repeat;
    }
    .author_proj_2column {
           /*background-color: #4d4d4d;*/
@@ -882,7 +882,7 @@
   }
   .recents .green {
       padding-bottom: 20px;
-      background: url("http://new.uouapps.com/funder/img/foot_line.png") repeat-x;
+      background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/foot_line.png") repeat-x;
       background-position: bottom;
   }
   
@@ -898,7 +898,7 @@
       margin: 0 11px 15px 0;
       height: 44px;
       width: 44px;
-      background: url("http://new.uouapps.com/funder/img/flkr1.png") no-repeat;
+      background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/flkr1.png") no-repeat;
       display: inline-block;
       opacity: 0.6;
   }
@@ -911,7 +911,7 @@
       padding: 0 0 15px 0;
       height: 44px;
       width: 44px;
-      background: url("http://new.uouapps.com/funder/img/flkr1.png") no-repeat;
+      background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/flkr1.png") no-repeat;
       display: inline-block;
       opacity: 0.6;
   }
@@ -963,7 +963,7 @@
   }
   
   .title_decor .title_h1 {
-      background: url('http://new.uouapps.com/funder/img/description/line-diagonal.png') repeat-x;
+      background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/description/line-diagonal.png') repeat-x;
       display: inline-block;
       float: left;
       height: 12px;
@@ -972,7 +972,7 @@
   }
   .decoration {
       padding: 0 20px;
-      background: url('http://new.uouapps.com/funder/img/description/line-diagonal.png') repeat-x;
+      background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/description/line-diagonal.png') repeat-x;
       background-position: 50% 60%;
   }
   .btns {
@@ -980,14 +980,14 @@
   }
   .nobacgr {
       padding: 0 20px;
-      background: url("http://new.uouapps.com/funder/img/background.png") repeat;
+      background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/background.png") repeat;
   }
   .nobacgr_whit {
       background: #fff;
       padding: 10px 20px;
   }
   .nobacgr_desc {
-      background: url('http://new.uouapps.com/funder/img/description/bkg_sidebar.png') repeat;
+      background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/description/bkg_sidebar.png') repeat;
       padding: 10px 20px;
   }
   
@@ -995,7 +995,7 @@
       margin: 20px;
   }
   .title_decor .title_h1r {
-      background: url('http://new.uouapps.com/funder/img/description/line-diagonal.png') repeat-x;
+      background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/description/line-diagonal.png') repeat-x;
       display: inline-block;
       float: right;
       height: 12px;
@@ -1036,7 +1036,7 @@
       height: 17px;
       width: 18px;
       margin: 0 5px 0 0;
-      background-image: url(http://new.uouapps.com/funder/img/sprite.png);
+      background-image: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/sprite.png);
       background-repeat: no-repeat;
   }
   input[type="checkbox"] + label::before {
@@ -1089,7 +1089,7 @@
       text-decoration: none;
   }
   #header .nav .active {
-      background: url("http://new.uouapps.com/funder/img/active_bottt.png") no-repeat;
+      background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/active_bottt.png") no-repeat;
       background-position: bottom;
       background-size: 100% 10%;
   }
@@ -1150,39 +1150,39 @@
   }
       /* NAV */
   
-  
+
   /*UPLOAD*/
   div.upload_img {
       height: 30px;
-      background: url(http://new.uouapps.com/funder/img/upload_img.png);
+      background: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/upload_img.png);
       opacity: 1;
       cursor: pointer;
       margin-top: 10px;
   }
   div.upload_pic1 {
       height: 30px;
-      background: url(http://new.uouapps.com/funder/img/upload_slide1.png);
+      background: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/upload_slide1.png);
       opacity: 1;
       cursor: pointer;
       margin-top: 10px;
   }
   div.upload_pic2 {
       height: 30px;
-      background: url(http://new.uouapps.com/funder/img/upload_slide2.png);
+      background: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/upload_slide2.png);
       opacity: 1;
       cursor: pointer;
       margin-top: 10px;
   }
   div.upload_pic3 {
       height: 30px;
-      background: url(http://new.uouapps.com/funder/img/upload_slide3.png);
+      background: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/upload_slide3.png);
       opacity: 1;
       cursor: pointer;
       margin-top: 10px;
   }
   div.upload_html {
       height: 30px;
-      background: url(http://new.uouapps.com/funder/img/upload_html.png);
+      background: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/upload_html.png);
       opacity: 1;
       cursor: pointer;
       margin-top: 10px;
@@ -1396,7 +1396,7 @@
   
   .span8 .title_h1
   {
-      background: url('http://new.uouapps.com/funder/img/description/line-diagonal.png') repeat-x;
+      background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/description/line-diagonal.png') repeat-x;
       display: inline-block;
       float: left;
       height: 12px;
@@ -1437,7 +1437,7 @@
       /*float:left;*/
      /**/
       /*width: 315px;*/
-      background: url('http://new.uouapps.com/funder/img/description/bkg_sidebar.png') repeat;
+      background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/description/bkg_sidebar.png') repeat;
       margin: 0px 0px 50px 0px;
   }
   
@@ -1463,7 +1463,7 @@
   
   .backers_days_blocks .image_first
   {
-      background: url('http://new.uouapps.com/funder/img/description/people.png') left center no-repeat;
+      background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/description/people.png') left center no-repeat;
       height: 23px;
       width: 23px;
       float:left;
@@ -1472,7 +1472,7 @@
   
   .backers_days_blocks .image_second
   {
-      background: url('http://new.uouapps.com/funder/img/description/dollar.png') left center no-repeat;
+      background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/description/dollar.png') left center no-repeat;
       height: 23px;
       width: 23px;
       float:left;
@@ -1481,7 +1481,7 @@
   
   .backers_days_blocks .image_third
   {
-      background: url('http://new.uouapps.com/funder/img/description/clock.png') left center no-repeat;
+      background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/description/clock.png') left center no-repeat;
       height: 23px;
       width: 23px;
       float:left;
@@ -1539,7 +1539,7 @@
   
   #pledges_block .title_h3
   {
-      background: url('http://new.uouapps.com/funder/img/description/line-diagonal.png') repeat-x;
+      background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/description/line-diagonal.png') repeat-x;
       display: inline-block;
       float: left;
       height: 12px;
@@ -1567,7 +1567,7 @@
   
   .pledges_block_info .pledges_block_info_link a
   {
-      background: url('http://new.uouapps.com/funder/img/description/minus.png') left center no-repeat;
+      background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/description/minus.png') left center no-repeat;
       height: 20px;
       padding-left:25px;
       color: #98B709;
@@ -1578,7 +1578,7 @@
   
   .pledges_block_info .pledges_block_info_link a.not_active
   {
-      background: url('http://new.uouapps.com/funder/img/description/plus.png') left center no-repeat;
+      background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/description/plus.png') left center no-repeat;
       height: 20px;
       padding-left:25px;
       color: #98B709;
@@ -1632,7 +1632,7 @@
   
   #payment_getaway .title_h3
   {
-      background: url('http://new.uouapps.com/funder/img/description/line-diagonal.png') repeat-x;
+      background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/description/line-diagonal.png') repeat-x;
       display: inline-block;
       float: left;
       height: 12px;
@@ -1750,7 +1750,7 @@
   
   #tabs_pages .tabs_pages_ul li.active
   {
-      background: url("http://new.uouapps.com/funder/img/background.png") repeat;
+      background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/background.png") repeat;
      border-bottom: none;
      border-top: 6px solid #dcdcdc;
      border-radius: 3px 3px 0 0;
@@ -1822,7 +1822,7 @@
   {
       float:left;
       /*width: 300px;*/
-      background: url('http://new.uouapps.com/funder/img/description/pencil.png')  left center no-repeat;
+      background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/description/pencil.png')  left center no-repeat;
       margin-top:15px;
       margin-left: 20px;
       color: #98B709;
@@ -1845,7 +1845,7 @@
   
   #author_review .title_h3
   {
-      background: url('http://new.uouapps.com/funder/img/description/line-diagonal.png') repeat-x;
+      background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/description/line-diagonal.png') repeat-x;
       display: inline-block;
       float: left;
       height: 12px;
@@ -1889,7 +1889,7 @@
   #author_review #face_social_text .left_face_social_text .pix_author
   {
       /*background-color: #9e9e9e;*/
-      background: url("http://new.uouapps.com/funder/img/doe.jpg") no-repeat;
+      background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/doe.jpg") no-repeat;
   /*width: 142px;*/
   height: 142px;
   margin: 3px;
@@ -1904,7 +1904,7 @@
   
   #author_review #face_social_text .left_face_social_text .social_link_author .social_link_author_facebook a
   {
-      background: url('http://new.uouapps.com/funder/img/description/facebook_author_icon.png') center center no-repeat #fff;
+      background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/description/facebook_author_icon.png') center center no-repeat #fff;
   /*width: 47px;*/
   height: 49px;
   display: block;
@@ -1913,7 +1913,7 @@
   
   #author_review #face_social_text .left_face_social_text .social_link_author .social_link_author_twitter  a
   {
-      background: url('http://new.uouapps.com/funder/img/description/twitter_author_icon.png') center center no-repeat #fff;
+      background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/description/twitter_author_icon.png') center center no-repeat #fff;
   /*width: 47px;*/
   height: 49px;
   display: block;
@@ -1922,7 +1922,7 @@
   
   #author_review #face_social_text .left_face_social_text .social_link_author .social_link_author_google a
   {
-      background: url('http://new.uouapps.com/funder/img/description/google_author_icon.png') center center no-repeat #fff;
+      background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/description/google_author_icon.png') center center no-repeat #fff;
   /*width: 47px;*/
   display: block;
   height: 48px;
@@ -1960,7 +1960,7 @@
   
   #asc_a_question .title_h3
   {
-      background: url('http://new.uouapps.com/funder/img/description/line-diagonal.png') repeat-x;
+      background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/description/line-diagonal.png') repeat-x;
       display: inline-block;
       float: left;
       height: 12px;
@@ -1987,7 +1987,7 @@
   }
   #asc_a_question .reply_user .image_face
   {
-      background: url('http://new.uouapps.com/funder/img/user.jpg') no-repeat;
+      background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/user.jpg') no-repeat;
       margin: 4px;
       width:52px;
       height:52px;
@@ -2117,7 +2117,7 @@
   
   #backers_content .backers_block_text .face_backers_content
   {
-      background: url('http://new.uouapps.com/funder/img/description/comment_author_description.png') center center no-repeat #fff;
+      background: url('https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/description/comment_author_description.png') center center no-repeat #fff;
       margin: 1px;
       width:56px;height:56px;
       float:left;
@@ -2235,7 +2235,7 @@
       right: 1px;
       width: 32px;
       height: 100%;
-      background: url("http://new.uouapps.com/funder/img/selectq.png") no-repeat;
+      background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/selectq.png") no-repeat;
   }
   .selectbox:hover .arrow {
       opacity: 1;
@@ -2490,7 +2490,7 @@
   #project13 .ui-slider-handle,
   #project14 .ui-slider-handle{
       cursor: pointer;
-      background: url("http://new.uouapps.com/funder/img/persentq.png") no-repeat;
+      background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/persentq.png") no-repeat;
       height: 34px;
       width: 30px;
       border: none;
@@ -4851,7 +4851,7 @@
     *margin-right: .3em;
     line-height: 14px;
     vertical-align: text-top;
-    background-image: url("http://new.uouapps.com/funder/img/glyphicons-halflings.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/glyphicons-halflings.png");
     background-position: 14px 14px;
     background-repeat: no-repeat;
   }
@@ -4875,7 +4875,7 @@
   .dropdown-submenu:focus > a > [class^="icon-"],
   .dropdown-submenu:hover > a > [class*=" icon-"],
   .dropdown-submenu:focus > a > [class*=" icon-"] {
-    background-image: url("http://new.uouapps.com/funder/img/glyphicons-halflings-white.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/glyphicons-halflings-white.png");
   }
   
   .icon-glass {
@@ -8596,14 +8596,14 @@
     line-height: 30px;
     color: #ffffff;
     text-align: center;
-      background: url("http://new.uouapps.com/funder/img/slide_left.png") no-repeat;
+      background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/slide_left.png") no-repeat;
       height: 160px;
       width: 80px;
   }
   .carousel-control.right {
       right: 0px;
       left: auto;
-      background: url("http://new.uouapps.com/funder/img/slide_right.png") no-repeat;
+      background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/slide_right.png") no-repeat;
   }
   
   #slide_left {
@@ -8616,7 +8616,7 @@
     line-height: 30px;
     color: #ffffff;
     text-align: center;
-      background: url("http://new.uouapps.com/funder/img/slide_right_proj_left.png") no-repeat;
+      background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/slide_right_proj_left.png") no-repeat;
       height: 50px;
       width: 50px;
       opacity: 0.5;
@@ -8629,7 +8629,7 @@
       height: 50px;
       width: 50px;
       left: auto;
-      background: url("http://new.uouapps.com/funder/img/slide_right_proj.png") no-repeat;
+      background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/slide_right_proj.png") no-repeat;
   }
   #slide_left:hover, #slide_rigth:hover {
       opacity: 1;
@@ -9291,7 +9291,7 @@
       height: 100%;
   }
   .ui-progressbar .ui-progressbar-overlay {
-      background: url("http://new.uouapps.com/funder/css/images/animated-overlay.html");
+      background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/css/images/animated-overlay.html");
       height: 100%;
       filter: alpha(opacity=25);
       opacity: 0.25;
@@ -9570,7 +9570,7 @@
   }
   .ui-widget-header {
       border: 1px solid #aaaaaa;
-      background: #cccccc url(http://new.uouapps.com/funder/css/images/ui-bg_highlight-soft_75_cccccc_1x100.html) 50% 50% repeat-x;
+      background: #cccccc url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/css/images/ui-bg_highlight-soft_75_cccccc_1x100.html) 50% 50% repeat-x;
       color: #222222;
       font-weight: bold;
   }
@@ -9584,7 +9584,7 @@
   .ui-widget-content .ui-state-default,
   .ui-widget-header .ui-state-default {
       border: none;
-      /*background: url("http://new.uouapps.com/funder/img/persent.png") no-repeat;*/
+      /*background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/persent.png") no-repeat;*/
       font-weight: normal;
       color: #555555;
   }
@@ -9601,7 +9601,7 @@
   .ui-widget-content .ui-state-focus,
   .ui-widget-header .ui-state-focus {
       border: 1px solid #999999;
-      background: #dadada url(http://new.uouapps.com/funder/css/images/ui-bg_glass_75_dadada_1x400.html) 50% 50% repeat-x;
+      background: #dadada url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/css/images/ui-bg_glass_75_dadada_1x400.html) 50% 50% repeat-x;
       font-weight: normal;
       color: #212121;
   }
@@ -9616,7 +9616,7 @@
   .ui-widget-content .ui-state-active,
   .ui-widget-header .ui-state-active {
       border: 1px solid #aaaaaa;
-      background: #ffffff url(http://new.uouapps.com/funder/css/images/ui-bg_glass_65_ffffff_1x400.html) 50% 50% repeat-x;
+      background: #ffffff url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/css/images/ui-bg_glass_65_ffffff_1x400.html) 50% 50% repeat-x;
       font-weight: normal;
       color: #212121;
   }
@@ -9633,7 +9633,7 @@
   .ui-widget-content .ui-state-highlight,
   .ui-widget-header .ui-state-highlight {
       border: 1px solid #fcefa1;
-      background: #fbf9ee url(http://new.uouapps.com/funder/css/images/ui-bg_glass_55_fbf9ee_1x400.html) 50% 50% repeat-x;
+      background: #fbf9ee url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/css/images/ui-bg_glass_55_fbf9ee_1x400.html) 50% 50% repeat-x;
       color: #363636;
   }
   .ui-state-highlight a,
@@ -9645,7 +9645,7 @@
   .ui-widget-content .ui-state-error,
   .ui-widget-header .ui-state-error {
       border: 1px solid #cd0a0a;
-      background: #fef1ec url(http://new.uouapps.com/funder/css/images/ui-bg_glass_95_fef1ec_1x400.html) 50% 50% repeat-x;
+      background: #fef1ec url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/css/images/ui-bg_glass_95_fef1ec_1x400.html) 50% 50% repeat-x;
       color: #cd0a0a;
   }
   .ui-state-error a,
@@ -9691,27 +9691,27 @@
   }
   .ui-icon,
   .ui-widget-content .ui-icon {
-      background-image: url(http://new.uouapps.com/funder/css/images/ui-icons_222222_256x240.html);
+      background-image: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/css/images/ui-icons_222222_256x240.html);
   }
   .ui-widget-header .ui-icon {
-      background-image: url(http://new.uouapps.com/funder/css/images/ui-icons_222222_256x240.html);
+      background-image: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/css/images/ui-icons_222222_256x240.html);
   }
   .ui-state-default .ui-icon {
-      background-image: url(http://new.uouapps.com/funder/css/images/ui-icons_888888_256x240.html);
+      background-image: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/css/images/ui-icons_888888_256x240.html);
   }
   .ui-state-hover .ui-icon,
   .ui-state-focus .ui-icon {
-      background-image: url(http://new.uouapps.com/funder/css/images/ui-icons_454545_256x240.html);
+      background-image: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/css/images/ui-icons_454545_256x240.html);
   }
   .ui-state-active .ui-icon {
-      background-image: url(http://new.uouapps.com/funder/css/images/ui-icons_454545_256x240.html);
+      background-image: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/css/images/ui-icons_454545_256x240.html);
   }
   .ui-state-highlight .ui-icon {
-      background-image: url(http://new.uouapps.com/funder/css/images/ui-icons_2e83ff_256x240.html);
+      background-image: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/css/images/ui-icons_2e83ff_256x240.html);
   }
   .ui-state-error .ui-icon,
   .ui-state-error-text .ui-icon {
-      background-image: url(http://new.uouapps.com/funder/css/images/ui-icons_cd0a0a_256x240.html);
+      background-image: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/css/images/ui-icons_cd0a0a_256x240.html);
   }
   
   /* positioning */
@@ -9924,14 +9924,14 @@
   
   /* Overlays */
   .ui-widget-overlay {
-      background: #aaaaaa url(http://new.uouapps.com/funder/css/images/ui-bg_flat_0_aaaaaa_40x100.html) 50% 50% repeat-x;
+      background: #aaaaaa url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/css/images/ui-bg_flat_0_aaaaaa_40x100.html) 50% 50% repeat-x;
       opacity: .3;
       filter: Alpha(Opacity=30);
   }
   .ui-widget-shadow {
       margin: -8px 0 0 -8px;
       padding: 8px;
-      background: #aaaaaa url(http://new.uouapps.com/funder/css/images/ui-bg_flat_0_aaaaaa_40x100.html) 50% 50% repeat-x;
+      background: #aaaaaa url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/css/images/ui-bg_flat_0_aaaaaa_40x100.html) 50% 50% repeat-x;
       opacity: .3;
       filter: Alpha(Opacity=30);
       border-radius: 8px;
@@ -11177,19 +11177,19 @@
           width: 150px !important;
       }
       div.upload_img {
-          background: url(http://new.uouapps.com/funder/img/upload_small.png);
+          background: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/upload_small.png);
       }
       div.upload_pic1 {
-          background: url(http://new.uouapps.com/funder/img/upload_slide1_small.png);
+          background: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/upload_slide1_small.png);
       }
       div.upload_pic2 {
-          background: url(http://new.uouapps.com/funder/img/upload_slide2_small.png);
+          background: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/upload_slide2_small.png);
       }
       div.upload_pic3 {
-          background: url(http://new.uouapps.com/funder/img/upload_slide3_small.png);
+          background: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/upload_slide3_small.png);
       }
       div.upload_html {
-          background: url(http://new.uouapps.com/funder/img/upload_html_small.png);
+          background: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/upload_html_small.png);
       }
   
       .create_projects  h4 {
@@ -11261,22 +11261,22 @@
           height: 350px;
       }
       .proj_1 {
-          background: url("http://new.uouapps.com/funder/img/proj1_big.jpg") no-repeat;
+          background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/proj1_big.jpg") no-repeat;
       }
       .proj_2 {
-          background: url("http://new.uouapps.com/funder/img/proj2_big.jpg") no-repeat;
+          background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/proj2_big.jpg") no-repeat;
       }
       .proj_3 {
-          background: url("http://new.uouapps.com/funder/img/proj3_big.jpg") no-repeat;
+          background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/proj3_big.jpg") no-repeat;
       }
       .proj_4 {
-          background: url("http://new.uouapps.com/funder/img/proj4_big.jpg") no-repeat;
+          background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/proj4_big.jpg") no-repeat;
       }
       .proj_5 {
-          background: url("http://new.uouapps.com/funder/img/proj5_big.jpg") no-repeat;
+          background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/proj5_big.jpg") no-repeat;
       }
       .proj_6 {
-          background: url("http://new.uouapps.com/funder/img/proj6_big.jpg") no-repeat;
+          background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/proj6_big.jpg") no-repeat;
       }
       .left_face_social_text {
           width: 200px;
@@ -11618,7 +11618,7 @@
       body {
           padding: 0;
           margin: 0 auto;
-          background: url("http://new.uouapps.com/funder/img/background.png") repeat;
+          background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/background.png") repeat;
       }
   
       .width,
@@ -11843,22 +11843,22 @@
           /*width: 290px;*/
       }
       .proj_1 {
-          background: url("http://new.uouapps.com/funder/img/proj1.jpg") no-repeat;
+          background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/proj1.jpg") no-repeat;
       }
       .proj_2 {
-          background: url("http://new.uouapps.com/funder/img/proj2.jpg") no-repeat;
+          background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/proj2.jpg") no-repeat;
       }
       .proj_3 {
-          background: url("http://new.uouapps.com/funder/img/proj3.jpg") no-repeat;
+          background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/proj3.jpg") no-repeat;
       }
       .proj_4 {
-          background: url("http://new.uouapps.com/funder/img/proj4.jpg") no-repeat;
+          background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/proj4.jpg") no-repeat;
       }
       .proj_5 {
-          background: url("http://new.uouapps.com/funder/img/proj5.jpg") no-repeat;
+          background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/proj5.jpg") no-repeat;
       }
       .proj_6 {
-          background: url("http://new.uouapps.com/funder/img/proj6.jpg") no-repeat;
+          background: url("https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/proj6.jpg") no-repeat;
       }
   
       .selectbox .select {
@@ -11875,19 +11875,19 @@
           width: 255px !important;
       }
       div.upload_img {
-          background: url(http://new.uouapps.com/funder/img/upload_img_mob.png);
+          background: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/upload_img_mob.png);
       }
       div.upload_pic1 {
-          background: url(http://new.uouapps.com/funder/img/upload_slide1_mob.png);
+          background: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/upload_slide1_mob.png);
       }
       div.upload_pic2 {
-          background: url(http://new.uouapps.com/funder/img/upload_slide2_mob.png);
+          background: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/upload_slide2_mob.png);
       }
       div.upload_pic3 {
-          background: url(http://new.uouapps.com/funder/img/upload_slide3_mob.png);
+          background: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/upload_slide3_mob.png);
       }
       div.upload_html {
-          background: url(http://new.uouapps.com/funder/img/upload_html_mob.png);
+          background: url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/upload_html_mob.png);
       }
       #author_review #face_social_text .left_face_social_text {
           width: 50%;
@@ -11988,24 +11988,24 @@
       Change the following styles to modify the appearance of Colorbox.  They are
       ordered & tabbed in a way that represents the nesting of the generated HTML.
   */
-  #cboxOverlay{background:url(http://new.uouapps.com/funder/img/overlay.png) repeat 0 0;}
+  #cboxOverlay{background:url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/overlay.png) repeat 0 0;}
   #colorbox{outline:0;}
-      #cboxTopLeft{width:21px; height:21px; background:url(http://new.uouapps.com/funder/img/controls.png) no-repeat -101px 0;}
-      #cboxTopRight{width:21px; height:21px; background:url(http://new.uouapps.com/funder/img/controls.png) no-repeat -130px 0;}
-      #cboxBottomLeft{width:21px; height:21px; background:url(http://new.uouapps.com/funder/img/controls.png) no-repeat -101px -29px;}
-      #cboxBottomRight{width:21px; height:21px; background:url(http://new.uouapps.com/funder/img/controls.png) no-repeat -130px -29px;}
-      #cboxMiddleLeft{width:21px; background:url(http://new.uouapps.com/funder/img/controls.png) left top repeat-y;}
-      #cboxMiddleRight{width:21px; background:url(http://new.uouapps.com/funder/img/controls.png) right top repeat-y;}
-      #cboxTopCenter{height:21px; background:url(http://new.uouapps.com/funder/img/border.png) 0 0 repeat-x;}
-      #cboxBottomCenter{height:21px; background:url(http://new.uouapps.com/funder/img/border.png) 0 -29px repeat-x;}
+      #cboxTopLeft{width:21px; height:21px; background:url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/controls.png) no-repeat -101px 0;}
+      #cboxTopRight{width:21px; height:21px; background:url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/controls.png) no-repeat -130px 0;}
+      #cboxBottomLeft{width:21px; height:21px; background:url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/controls.png) no-repeat -101px -29px;}
+      #cboxBottomRight{width:21px; height:21px; background:url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/controls.png) no-repeat -130px -29px;}
+      #cboxMiddleLeft{width:21px; background:url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/controls.png) left top repeat-y;}
+      #cboxMiddleRight{width:21px; background:url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/controls.png) right top repeat-y;}
+      #cboxTopCenter{height:21px; background:url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/border.png) 0 0 repeat-x;}
+      #cboxBottomCenter{height:21px; background:url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/border.png) 0 -29px repeat-x;}
       #cboxContent{background:#fff; overflow:hidden;}
           .cboxIframe{background:#fff;}
           #cboxError{padding:50px; border:1px solid #ccc;}
           #cboxLoadedContent{margin-bottom:28px;}
           #cboxTitle{position:absolute; bottom:4px; left:0; text-align:center; width:100%; color:#949494;}
           #cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}
-          #cboxLoadingOverlay{background:url(http://new.uouapps.com/funder/img/loading_background.png) no-repeat center center;}
-          #cboxLoadingGraphic{background:url(http://new.uouapps.com/funder/img/loading.gif) no-repeat center center;}
+          #cboxLoadingOverlay{background:url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/loading_background.png) no-repeat center center;}
+          #cboxLoadingGraphic{background:url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/loading.gif) no-repeat center center;}
   
           /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
           #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
@@ -12014,11 +12014,11 @@
           #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
   
           #cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
-          #cboxPrevious{position:absolute; bottom:0; left:0; background:url(http://new.uouapps.com/funder/img/controls.png) no-repeat -75px 0; width:25px; height:25px; text-indent:-9999px;}
+          #cboxPrevious{position:absolute; bottom:0; left:0; background:url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/controls.png) no-repeat -75px 0; width:25px; height:25px; text-indent:-9999px;}
           #cboxPrevious:hover{background-position:-75px -25px;}
-          #cboxNext{position:absolute; bottom:0; left:27px; background:url(http://new.uouapps.com/funder/img/controls.png) no-repeat -50px 0; width:25px; height:25px; text-indent:-9999px;}
+          #cboxNext{position:absolute; bottom:0; left:27px; background:url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/controls.png) no-repeat -50px 0; width:25px; height:25px; text-indent:-9999px;}
           #cboxNext:hover{background-position:-50px -25px;}
-          #cboxClose{position:absolute; bottom:0; right:0; background:url(http://new.uouapps.com/funder/img/controls.png) no-repeat -25px 0; width:25px; height:25px; text-indent:-9999px;}
+          #cboxClose{position:absolute; bottom:0; right:0; background:url(https://cdn.jsdelivr.net/gh/daniwxcode/tpnatan@Dev/src/assets/img/controls.png) no-repeat -25px 0; width:25px; height:25px; text-indent:-9999px;}
           #cboxClose:hover{background-position:-25px -25px;}
   
   /*
